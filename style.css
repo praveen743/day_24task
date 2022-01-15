@@ -1,0 +1,56 @@
+*{
+    background-color: blueviolet;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#edit{
+    background-color: blue;
+    border: none;
+}
+
+#delete{
+    background-color: red;
+    border: none;
+}
+
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  
+  .left {
+      width: 30%;
+    left: 0;
+    background-color: blueviolet;
+  }
+  
+  .right {
+    right: 0;
+    width: 70%;
+    margin-left: 10px;
+    background-color: blueviolet;
+  }
+
+  .form-control{
+    width: 75%;
+    border: 1px solid black;
+}
+.form{
+    margin-left: 100px;
+}
+label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 10px;
+}
+.table{
+    background-color: rgb(37, 33, 33);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
